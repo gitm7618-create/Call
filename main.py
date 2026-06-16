@@ -24,7 +24,7 @@ REQUIRED_CHANNEL_ID = -1004437564076  # Replace with actual ID (e.g. -100...)
 REQUIRED_CHANNEL_URL = "https://t.me/+BESyOiYWcClmYmNl"
 
 # 🖼️ WALLPAPER
-WELCOME_IMAGE = "https://i.postimg.cc/Hnv99pZ3/preview-image.jpg"
+WELCOME_IMAGE = "https://ibb.co/B5wC7LP9"
 
 # Logging
 logging.basicConfig(
@@ -560,7 +560,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "📦 **JSON API Configuration**\n\n"
             "⛔ **You are NOT a premium user!**\n"
             "Buy a premium plan to use all features."
-            "👑 **created by Madhu!**\n"
+             "CREATED BY MADHU **\n\n"
         )
     else:
         welcome_msg = (
@@ -570,6 +570,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "📦 **JSON API Configuration**\n\n"
             "✅ **You are PREMIUM user!**\n"
             "Enjoy all premium features!"
+             "CREATED BY MADHU **\n\n"
         )
     
     await update.message.reply_photo(
